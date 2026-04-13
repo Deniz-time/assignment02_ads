@@ -6,11 +6,10 @@ class ListNode {
 
 public class Task2 {
     public static void run() {
-        // Создаем пример списка с циклом для теста
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
-        head.next.next.next = head; // Замыкаем цикл на начало
+        head.next.next.next = head;
 
         System.out.println("Cycle detected: " + (hasCycle(head) ? "YES" : "NO"));
     }

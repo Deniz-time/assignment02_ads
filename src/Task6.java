@@ -6,7 +6,6 @@ class TreeNode {
 
 public class Task6 {
     public static void run() {
-        // Тестовое дерево
         TreeNode root = new TreeNode(10);
         root.left = new TreeNode(5);
         root.right = new TreeNode(15);
